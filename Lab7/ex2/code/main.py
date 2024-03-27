@@ -4,9 +4,9 @@ pygame.init()
 
 screen = pygame.display.set_mode((900 , 512)) #size of display
 pygame.display.set_caption("Player") #the name of display
-player = pygame.image.load("ex2/images/player.jpg") #main object
+player = pygame.image.load("Lab7/ex2/images/player.jpg") #main object
 process = True #for cycle "for"
-playlist = ["ex2/music/music1.mp3", "ex2/music/music2.mp3" , "ex2/music/music3.mp3"] #list of musics
+playlist = ["Lab7/ex2/music/music1.mp3", "Lab7/ex2/music/music2.mp3" , "Lab7/ex2/music/music3.mp3"] #list of musics
 index_of_playlist = 0
 def play_music():
     pygame.mixer.music.load(playlist[index_of_playlist])

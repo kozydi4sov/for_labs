@@ -4,9 +4,9 @@ from datetime import datetime
 pygame.init()
 screen = pygame.display.set_mode((1400, 1050))
 
-bg_image = pygame.image.load('ex1/images/mainclock.png')
-sec_img = pygame.image.load('ex1/images/leftarm.png')
-min_img = pygame.image.load('ex1/images/rightarm.png')
+bg_image = pygame.image.load('Lab7/ex1/images/mainclock.png')
+sec_img = pygame.image.load('Lab7/ex1/images/leftarm.png')
+min_img = pygame.image.load('Lab7/ex1/images/rightarm.png')
 
 
 rect = bg_image.get_rect(center=(700, 525))
